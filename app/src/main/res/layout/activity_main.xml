@@ -2,8 +2,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.jacob.dismisslistview.SlideListView
+    <com.jacob.dismisslistview.SlideDismissListView
         android:id="@+id/slide_list_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:dividerHeight="0.7dp"
+        android:divider="#ff6a6a6a"
+        android:background="#ff9a9a9a"/>
 </RelativeLayout>
